@@ -36,7 +36,7 @@ async function connect() {
       // channel.ack(message);
     });
 
-    console.log('Consumer started');
+    // console.log('Consumer started');
   } catch (error) {
     console.error('Error:', error);
   }
